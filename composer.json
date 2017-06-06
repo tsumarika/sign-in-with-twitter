@@ -1,0 +1,19 @@
+{
+    "name": "tsumarika/sign-in-with-twitter",
+    "type": "project",
+    "authors": [
+        {
+            "name": "tsumarika",
+            "email": "wagatsuma38@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "abraham/twitteroauth": "^0.7.3",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
